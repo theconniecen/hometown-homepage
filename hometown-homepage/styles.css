@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    background-color: #A8DADC;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 30px;
+    color: #1D3557;
+}
+
+h2 {
+    background-color: #F1FAEE;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.second-fold {
+    background-color: #F1FAEE;
+    margin: -20px;
+    padding: 15px;
+}
+
+.activity-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activity-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activity-images {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.activity-description {
+    width: 150px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.avatar-card {
+    background-color: #A8DADC;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+.avatar-image {
+    display: block;
+    align-content: space-around;
+    margin: 15px 30px;
+}
+
+.avatar-description {
+    margin-right: 10px;
+}
+
+img {
+    width: 150px;
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    background-color: lightpink;
+}
